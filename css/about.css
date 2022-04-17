@@ -1,0 +1,263 @@
+/* banner 的样式 */
+.banner {
+  background-color: #f2f2f2;
+  padding-top: 150px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 70px;
+}
+.banner-left {
+  float: left;
+}
+.banner-right {
+  float: right;
+}
+.banner > div > img {
+  margin-bottom: -4px;
+}
+.shop-circle {
+  position: absolute;
+  width: 342px;
+  height: 342px;
+  left: 0;
+  right: 0;
+  bottom: -25px;
+  border-radius: 50%;
+  margin-top: 100px;
+  background-color: #fff;
+  text-align: center;
+}
+.shop-circle h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #323232;
+  line-height: 1;
+  margin: 80px 0 29px;
+  /* margin-top: 50px; */
+}
+.shop-circle ul {
+  margin-left: 20%;
+}
+.shop-circle ul li {
+  float: left;
+  margin-left: 7px;
+}
+.shop-circle ul li a {
+  font-weight: 500;
+  display: inline-block;
+  color: black;
+  font-size: 14px;
+  transition: all 0.2s linear;
+}
+.shop-circle ul li a:hover {
+  color: #e97730;
+}
+.shop-circle ul li:last-child {
+  color: #686868;
+}
+
+/* bast */
+
+.mode-img img {
+  margin-top: 50px;
+  transition: transform 0.5s;
+  transition-timing-function: linear;
+}
+.bast {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+.mode-img:hover img {
+  transform: scale(0.9);
+}
+.mode-info {
+  text-align: center;
+}
+.mode-info h2 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.mode-info h3 {
+  font-size: 24px;
+  color: #e97730;
+  font-weight: 600;
+  /* line-height: 42px; */
+  margin-bottom: 20px;
+}
+.mode-info p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #535353;
+  margin-bottom: 30px;
+}
+.mode-info a,
+.sofa a {
+  display: inline-block;
+  width: 150px;
+  line-height: 42px;
+  color: white;
+  padding: 0 10px;
+}
+.mode-info .shop-btn,.sofa .shop-btn {
+  margin: 0 auto;
+  width: 150px;
+  height: 42px;
+}
+.mode-info .newShop,.sofa .newShop {
+  height: 42px;
+}
+/* sofa */
+.sofa {
+  background-image: url(../img/about-sofa.png);
+  text-align: center;
+  padding: 150px 0 130px 0;
+  margin-bottom: 70px;
+}
+.sofa .inner > div:first-child span {
+  display: inline-block;
+  width: 70px;
+  height: 2px;
+  background-color: #e97730;
+  margin-bottom: 4px;
+}
+.sofa .inner > div:first-child p {
+  display: inline-block;
+  color: white;
+  padding: 0 10px;
+}
+.sofa h2 {
+  padding: 40px 0;
+  font-size: 52px;
+  color: white;
+  font-weight: 900;
+  text-shadow: 2px 2px 2px #e97730, -2px -2px 2px#e97730;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+h2 span {
+  display: inline-block;
+  border-bottom: 2px solid #e97730;
+  padding-bottom: 20px;
+}
+
+.test {
+  text-align: center;
+  padding-bottom: 70px;
+  position: relative;
+}
+.test .row > div {
+  text-align: left;
+  padding: 50px 20px 40px 50px;
+}
+.test .row > div.active {
+  border: 2px solid #dedbdb;
+}
+.test .row > div p {
+  font-size: 18px;
+  color: #4b4b4b;
+  font-weight: 300;
+  margin: 17px 0 15px 0;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.test h4 {
+  color: #575555;
+  font-size: 18px;
+  font-weight: 300px;
+}
+.test .row > div:last-child span {
+  font-size: 18px;
+  color: #4b4b4b;
+  font-weight: 300;
+}
+.test-img {
+  position: absolute;
+  top: -40px;
+  left: 40px;
+}
+.test-bot {
+  padding: 80px 0;
+  background-image: url(../img/about2.png);
+  margin-bottom: 90px;
+}
+.test-bot .row > div {
+  text-align: center;
+}
+.test-bot h2 {
+  margin-bottom: 10px;
+}
+.test-bot p {
+  line-height: 0;
+  padding: 0;
+}
+.test-bot p span {
+  display: inline-block;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e97730;
+}
+
+.staf {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+
+/* staf的样式 */
+
+.staf-info h4 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  color: black;
+}
+.staf-info p {
+  color: #666;
+}
+
+.join {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.join p {
+  color: #7e7e7e;
+  font-size: 16px;
+  margin: 20px auto 0;
+  width: 46%;
+}
+.join-form {
+  margin-top: 30px;
+}
+.join-form input {
+  border: 2px solid #cccccc;
+  color: #818181;
+  font-style: italic;
+  padding: 2px 18px;
+  /* width: 440px; */
+  width: 45%;
+  height: 55px;
+  margin-right: 10px;
+
+}
+.join-form input:focus {
+  outline: none;
+}
+.join-form a {
+  display: inline-block;
+  width: 16%;
+  height: 55px;
+  text-align: center;
+  background-color:#e97730;
+  font-size: 20px;
+  line-height: 55px;
+  color: white;
+  transition: all 0.5s linear;
+}
+.join-form a:hover{
+  background-color: #000;
+}
+

@@ -1,0 +1,139 @@
+/* banenr 样式 */
+.banner {
+  background-color: #f2f2f2;
+  padding-top: 150px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 70px;
+}
+.banner-left {
+  float: left;
+}
+.banner-right {
+  float: right;
+}
+.banner > div > img {
+  margin-bottom: -4px;
+}
+.shop-circle {
+  position: absolute;
+  width: 342px;
+  height: 342px;
+  left: 0;
+  right: 0;
+  bottom: -25px;
+  border-radius: 50%;
+  margin-top: 100px;
+  background-color: #fff;
+  text-align: center;
+}
+.shop-circle h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #323232;
+  margin: 80px 0 29px;
+  /* margin-top: 50px; */
+}
+.shop-circle ul {
+  margin-left: 24%;
+}
+.shop-circle ul li {
+  float: left;
+  margin-left: 7px;
+}
+.shop-circle ul li a {
+  font-weight: 500;
+  display: inline-block;
+  color: black;
+  font-size: 14px;
+  transition: all 0.2s linear;
+}
+.shop-circle ul li a:hover {
+  color: #e97730;
+}
+.shop-circle ul li:last-child {
+  color: #686868;
+}
+
+/* main 样式 */
+h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+  /* color: #323232; */
+}
+h2 a {
+  display: inline-block;
+  color: #323232;
+  transition: all 0.3s linear;
+}
+h2 a.active,
+.login-btn a:hover {
+  color: #e97730;
+}
+h2 a:hover,
+.login-btn a:hover {
+  color: #e97730;
+}
+h2 span {
+  display: inline-block;
+  width: 2px;
+  height: 20px;
+  background-color: #323232;
+  margin: 0 5px;
+}
+.content {
+  width: 770px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  padding: 70px 70px 130px 70px;
+  text-align: center;
+  margin-bottom: 90px;
+  box-shadow: 0 0 15px #eee;
+}
+.login-form form > input,
+.regest-form form > input {
+  width: 610px;
+  border: 1px solid#eee;
+  color: #d6d6d6;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+input:focus {
+  border: 1px solid #eee;
+  outline: none;
+  background-color: #fff;
+}
+.login-btn input,
+.login-btn label {
+  float: left;
+  margin-left: 10px;
+}
+.login-btn label {
+  color: #323232;
+  /* margin-left: 10px; */
+}
+.login-btn a {
+  display: block;
+  float: right;
+  color: #323232;
+}
+.login-link {
+  text-align: left;
+}
+.login-link a,
+.regest-link a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background-color: #e97730;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  margin: 20px 10px 0 10px;
+}
+
+.regest {
+  display: none;
+}
